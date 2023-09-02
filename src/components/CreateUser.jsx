@@ -16,7 +16,8 @@ export default function CreateUser() {
         e.preventDefault()
         // console.log("Users: ", user)
         dispatch(createUser(user))
-        navigate('/read')
+        location.href('/read')
+        // navigate('/read')
     }
 
     return (
